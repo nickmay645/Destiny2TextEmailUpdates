@@ -40,7 +40,7 @@ def pull_data():
 
 def email_alert(subject, body, to):
     # 160 char max
-
+    # New comment TSTSETSAETAd
     msg = EmailMessage()
     msg.set_content(body)
     msg['subject'] = subject
